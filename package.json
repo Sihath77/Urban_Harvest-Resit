@@ -1,0 +1,13 @@
+{
+  "name": "urban-harvest-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-backend": "npm install --prefix Backend",
+    "install-frontend": "npm install --prefix Frontend",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "build-frontend": "npm run build --prefix Frontend",
+    "start": "npm start --prefix Backend",
+    "build": "npm run install-all && npm run build-frontend"
+  }
+}
