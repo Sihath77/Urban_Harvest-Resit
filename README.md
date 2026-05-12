@@ -1,4 +1,4 @@
-# Urban Harvest Hub
+# Urban Harvest Hub -
 
 Urban Harvest Hub is a full-stack web application designed to connect urban communities with fresh, local produce and sustainable living workshops.
 
